@@ -1,5 +1,5 @@
 ﻿Function Get-CsvFromDialog{
-## Gets a CSV from Windows Dialog
+## Gets a CSV using a Windows Dialog
     Add-Type -AssemblyName System.Windows.Forms
     $FileBrowser = New-Object System.Windows.Forms.OpenFileDialog -Property @{
         Title = 'Select input file for processing'
